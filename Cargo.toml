@@ -1,0 +1,10 @@
+[package]
+name = "simple-log"
+version = "0.1.0"
+edition = "2024"
+authors = ["Vivswan <vivswan80@gmail.com>"]
+
+[dependencies]
+chrono = "0.4.40"
+nickel = { git = "https://github.com/nickel-org/nickel.rs.git" }
+tokio = { version = "1", features = ["full"] }
