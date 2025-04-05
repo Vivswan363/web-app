@@ -6,5 +6,6 @@ authors = ["Vivswan <vivswan80@gmail.com>"]
 
 [dependencies]
 chrono = "0.4.40"
+chrono-tz = "0.10.3"
 nickel = { git = "https://github.com/nickel-org/nickel.rs.git" }
 tokio = { version = "1", features = ["full"] }
